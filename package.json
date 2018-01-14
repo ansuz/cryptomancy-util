@@ -1,0 +1,14 @@
+{
+  "name": "cryptomancy-util",
+  "version": "1.0.0",
+  "description": "utility functions for cryptomancy suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cryptomancy"
+  ],
+  "author": "ansuz",
+  "license": "ISC"
+}

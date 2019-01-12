@@ -1,6 +1,6 @@
 {
   "name": "cryptomancy-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utility functions for cryptomancy suite",
   "main": "index.js",
   "scripts": {

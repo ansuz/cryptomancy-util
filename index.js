@@ -3,6 +3,15 @@ var util = module.exports;
 util.slice = function (A, start, end) { return Array.prototype.slice.call(A, start, end); };
 util.push = function (A, B) { Array.prototype.push.apply(A, B); };
 
+util.once = function (cb) {
+    var called;
+    return function () {
+        if (called) { return; }
+        called = true;
+        f.apply(this, util.slice(arguments));
+    };
+};
+
 util.forEach = function (u8, f) {
     var i = 0;
     var l = u8.length;

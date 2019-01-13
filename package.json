@@ -1,6 +1,6 @@
 {
   "name": "cryptomancy-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "utility functions for cryptomancy suite",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,9 @@
     "cryptomancy"
   ],
   "author": "ansuz",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansuz/cryptomancy-util"
+  }
 }

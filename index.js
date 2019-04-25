@@ -8,7 +8,7 @@ util.once = function (cb) {
     return function () {
         if (called) { return; }
         called = true;
-        f.apply(this, util.slice(arguments));
+        cb.apply(this, util.slice(arguments));
     };
 };
 
